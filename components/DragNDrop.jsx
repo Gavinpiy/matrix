@@ -14,3 +14,6 @@ function DragNDrop() {
 }
 
 export default DragNDrop;
+
+// docs 
+//https://www.npmjs.com/package/react-drag-drop-files
