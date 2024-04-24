@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Link from "next/link";
 import Header from "/components/Header";
 import Chatbot from "react-chatbot-kit";
 import "react-chatbot-kit/build/main.css";
@@ -26,7 +25,7 @@ export default function Page() {
     <div>
       <Header />
       <main className="p-10 flex flex-col justify-center items-center gap-10 min-w-600">
-        <h1>Project 2</h1>
+        <h1 className="font-extrabold"> Order Taking and Creation</h1>
 
         <div className="flex gap-20 ">
           <div className="App">
