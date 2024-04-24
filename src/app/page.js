@@ -12,7 +12,7 @@ export default function Home() {
               href="/1"
               imgSrc="/documentQuality.png"
               description="Document Submission Quality Control"
-              className="border-2 border-black border-solid p-4 rounded-lg text-center object-cover w-100 h-100"
+              className="border-2 border-black border-solid p-4 rounded-lg text-center object-cover "
             />
           </div>
           <div className="flex h-auto">
