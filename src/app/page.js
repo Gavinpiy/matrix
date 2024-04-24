@@ -11,6 +11,7 @@ export default function Home() {
             href="/1"
             imgSrc="/placeholder.jpg"
             description="Applicant Document Submission Quality Control"
+            className="border-2 border-black border-solid p-4 rounded-lg text-center"
           />
         </div>
         <div className="flex gap-10">
@@ -19,6 +20,7 @@ export default function Home() {
             href="/2"
             imgSrc="/placeholder.jpg"
             description="Order Taking and Creation Through Conversational AI"
+            className="border-2 border-black border-solid p-4 rounded-lg text-center"
           />
         </div>
         <div className="flex gap-10">
@@ -27,6 +29,7 @@ export default function Home() {
             href="/3"
             imgSrc="/placeholder.jpg"
             description="Automated Document Requests"
+            className="border-2 border-black border-solid p-4 rounded-lg text-center"
           />
         </div>
       </div>
