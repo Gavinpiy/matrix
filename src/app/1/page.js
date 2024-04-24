@@ -4,7 +4,7 @@ import Link from "next/link";
 import DragNDrop from "/components/DragNDrop";
 export default function Page() {
   return (
-    <main className="p-10 flex flex-col items-center gap-10">
+    <main className="p-10 flex flex-col items-center gap-10 min-w-600">
       <div className="flex flex-col items-center gap-2">
         <h1>Applicant Document Submission Quality Control</h1>
         <Link href="/" title="Homepage" style={{ color: "red" }}>
@@ -23,8 +23,8 @@ export default function Page() {
             Submit
           </button>
         </form>
-        <div className="gap-10 flex flex-col text-center">
-          <p>
+        <div className="gap-10 flex flex-col text-center ">
+          <p style={{ minWidth: "500px", maxWidth: "600px" }}>
             What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
             printing and typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s, when an unknown

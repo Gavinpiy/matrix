@@ -23,14 +23,14 @@ function ChatbotComponent() {
 
 export default function Page() {
   return (
-    <main className="p-10 flex flex-col justify-center items-center gap-10 ">
+    <main className="p-10 flex flex-col justify-center items-center gap-10 min-w-600">
       <h1>Project 2</h1>
       <Link href="/" title="Homepage" style={{ color: "red" }}>
         Home
       </Link>
       <div className="flex gap-20 ">
         <div className="App">
-        <ChatbotComponent />
+          <ChatbotComponent />
         </div>
         <div className="flex flex-col gap-10">
           <p className="max-w-80 flex ">
