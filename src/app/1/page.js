@@ -1,15 +1,14 @@
 "use client";
 import React from "react";
-import Link from "next/link";
+import Header from "/components/Header";
 import DragNDrop from "/components/DragNDrop";
 export default function Page() {
   return (
+    <div>
+      <Header />
     <main className="p-10 flex flex-col items-center gap-10 min-w-600">
       <div className="flex flex-col items-center gap-2">
         <h1>Applicant Document Submission Quality Control</h1>
-        <Link href="/" title="Homepage" style={{ color: "red" }}>
-          Home
-        </Link>
       </div>
       <div className="flex justify-center pt-18 items-center sm:gap-10 md:gap-12">
         <form className="sm:p-18 md:p-18 flex flex-col justify-center items-center gap-10 border-2 border-black p-4 rounded-lg">
@@ -44,5 +43,6 @@ export default function Page() {
         </div>
       </div>
     </main>
+    </div>
   );
 }
