@@ -4,12 +4,15 @@ import Link from "next/link";
 import DragNDrop from "/components/DragNDrop";
 export default function Page() {
   return (
-    <main className="p-12">
-      <div className="flex justify-center pt-18 items-center sm:gap-10 md:gap-12  pb-20">
-        <div className=" sm:p-18 md:p-18 flex flex-col justify-center items-center sm:gap-10 md:gap-12">
-          <div className="flex justify-end">
-            <h1>Applicant Document Submission Quality Control</h1>
-          </div>
+    <main className="p-20 flex flex-col items-center gap-10">
+      <div className="flex flex-col items-center gap-2">
+        <h1>Applicant Document Submission Quality Control</h1>
+        <Link href="/" title="Homepage" style={{ color: "red" }}>
+          Home
+        </Link>
+      </div>
+      <div className="flex justify-center pt-18 items-center sm:gap-10 md:gap-12">
+        <div className="sm:p-18 md:p-18 flex flex-col justify-center items-center sm:gap-10 md:gap-12">
           <DragNDrop />
           <DragNDrop />
           <DragNDrop />
@@ -34,16 +37,7 @@ export default function Page() {
             more-or-less normal distribution of letters, as opposed to using
             'Content here, content here', making it look like readable English.
             Many desktop publishing packages and web page editors now use Lorem
-            Ipsum as their default model text, and a search for 'lorem ipsum'
-            will uncover many web sites still in their infancy. Various versions
-            have evolved over the years, sometimes by accident, sometimes on
-            purpose (injected humour and the like). Where does it come from?
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin Rackham.
           </p>
-          <Link href="/" title="Homepage" style={{ color: 'red' }} className="flex justify-end" >
-            Home
-          </Link>
         </div>
       </div>
     </main>

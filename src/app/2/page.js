@@ -9,6 +9,18 @@ import config from "/configs/config";
 import MessageParser from "/configs/MessageParser";
 import ActionProvider from "/configs/ActionProvider";
 
+function ChatbotComponent() {
+  return (
+    <div className="App">
+      <Chatbot
+        config={config}
+        messageParser={MessageParser}
+        actionProvider={ActionProvider}
+      />
+    </div>
+  );
+}
+
 export default function Page() {
   return (
     <main className="p-12 flex flex-col justify-center pt-18 items-center gap-10 ">
@@ -18,11 +30,7 @@ export default function Page() {
       </Link>
       <div className="flex gap-20 p-10">
         <div className="App">
-          <Chatbot
-            config={config}
-            messageParser={MessageParser}
-            actionProvider={ActionProvider}
-          />
+        <ChatbotComponent />
         </div>
         <div className="flex flex-col gap-10">
           <p className="max-w-80 flex ">
