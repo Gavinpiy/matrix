@@ -4,7 +4,7 @@ import Link from "next/link";
 import DragNDrop from "/components/DragNDrop";
 export default function Page() {
   return (
-    <main className="p-20 flex flex-col items-center gap-10">
+    <main className="p-10 flex flex-col items-center gap-10">
       <div className="flex flex-col items-center gap-2">
         <h1>Applicant Document Submission Quality Control</h1>
         <Link href="/" title="Homepage" style={{ color: "red" }}>
@@ -12,14 +12,17 @@ export default function Page() {
         </Link>
       </div>
       <div className="flex justify-center pt-18 items-center sm:gap-10 md:gap-12">
-        <div className="sm:p-18 md:p-18 flex flex-col justify-center items-center sm:gap-10 md:gap-12">
+        <form className="sm:p-18 md:p-18 flex flex-col justify-center items-center gap-10 border-2 border-black p-4 rounded-lg">
           <DragNDrop />
           <DragNDrop />
           <DragNDrop />
           <DragNDrop />
           <DragNDrop />
           <DragNDrop />
-        </div>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Submit
+          </button>
+        </form>
         <div className="gap-10 flex flex-col text-center">
           <p>
             What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
