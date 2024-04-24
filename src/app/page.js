@@ -4,32 +4,30 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <div className="p-12 sm:p-18 md:p-18 lg:p-28 flex flex-col justify-center pt-18 items-center h-full sm:gap-10 md:gap-12 lg:gap-20 pt-20">
+      <div className="p-12 flex flex-col justify-center pt-18 items-center gap-10 pt-20">
         <div className="flex gap-10">
-          <div className="flex gap-10 w-64 h-auto">
+          <div className="flex w-80 h-100">
             <Card
-              title="Project 1"
+              title="Document Submission Quality Control"
               href="/1"
               imgSrc="/documentQuality.png"
-              description="Document Submission Quality Control"
+              
               className="border-2 border-black border-solid p-4 rounded-lg text-center object-cover "
             />
           </div>
-          <div className="flex h-auto">
+          <div className="flex  w-80 h-100">
             <Card
-              title="Project 2"
+              title="Order Taking and Creation"
               href="/2"
               imgSrc="/speechBubble.png"
-              description="Order Taking and Creation"
               className="border-2 border-black border-solid p-4 rounded-lg text-center object-cover"
             />
           </div>
-          <div className="flex w-64 h-auto">
+          <div className="flex w-80 h-100">
             <Card
-              title="Project 3"
+              title="Automated Document Requests"
               href="/3"
               imgSrc="/documentRequests.png"
-              description="Automated Document Requests"
               className="border-2 border-black border-solid p-4 rounded-lg text-center object-cover"
             />
           </div>

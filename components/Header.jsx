@@ -6,7 +6,7 @@ export default function Header() {
         <img
           src="/logo.png"
           alt="logo"
-          className="w-64 h-64 flex items-center"
+          className="w-64 flex items-center"
         />
       </Link>
     </header>
